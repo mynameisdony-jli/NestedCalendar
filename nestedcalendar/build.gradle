@@ -12,6 +12,11 @@ android {
         namespace 'com.nanbox.nestedcalendar' // Specify your package name here
     }
 
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
     buildTypes {
         release {
             minifyEnabled false
